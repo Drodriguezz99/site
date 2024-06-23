@@ -1,0 +1,48 @@
+// Importar o Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Estilos personalizados
+.navbar {
+  background-color: transparent !important; // Background transparente
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #6c757d; // Cor do texto dos links (cinza)
+  transition: color 0.3s; // Transição suave da cor ao passar o mouse
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #343a40; // Cor do texto ao passar o mouse (mais escuro)
+}
+
+.navbar-toggler-icon {
+  border-color: #6c757d; // Cor do ícone do botão toggler
+}
+
+.navbar-toggler {
+  border-color: #6c757d; // Cor da borda do botão toggler
+}
+
+.btn-outline-dark {
+  border-color: #6c757d; // Cor da borda do botão "Entrar"
+  color: #6c757d; // Cor do texto do botão "Entrar"
+  transition: color 0.3s, border-color 0.3s; // Transições suaves
+}
+
+.btn-outline-dark:hover {
+  background-color: #6c757d; // Cor de fundo ao passar o mouse
+  color: #fff; // Cor do texto ao passar o mouse (branco)
+}
+
+.btn-dark {
+  background-color: #6c757d; // Cor de fundo do botão "Cadastrar"
+  border-color: #6c757d; // Cor da borda do botão "Cadastrar"
+  transition: background-color 0.3s, border-color 0.3s; // Transições suaves
+}
+
+.btn-dark:hover {
+  background-color: #343a40; // Cor de fundo ao passar o mouse (mais escuro)
+  border-color: #343a40; // Cor da borda ao passar o mouse (mais escuro)
+}
+
+// Outros estilos conforme necessário

@@ -1,0 +1,43 @@
+/* Estilos para os botões de GitHub, Email e LinkedIn */
+.btn-github {
+  background-color: #0077b5; /* Cor azul LinkedIn */
+  color: #fff; /* Texto branco */
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.btn-email {
+  background-color: #0077b5; /* Cor azul LinkedIn */
+  color: #fff; /* Texto branco */
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.btn-linkedin {
+  background-color: #0077b5; /* Cor azul LinkedIn */
+  color: #fff; /* Texto branco */
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.btn-publish {
+  background-color: #0077b5; /* Cor azul LinkedIn */
+  color: #fff; /* Texto branco */
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 9999px;
+  transition: background-color 0.2s, border-color 0.2s;
+  margin-right: 10px; /* Espaçamento à direita */
+}
+
+.btn:hover {
+  opacity: 0.9; /* Opacidade reduzida ao passar o mouse */
+}

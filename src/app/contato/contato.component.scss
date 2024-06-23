@@ -1,0 +1,26 @@
+.container {
+  max-width: 600px; /* Reduzindo a largura máxima */
+  margin: auto; /* Centralizando horizontalmente */
+  padding: 20px; /* Adicionando espaço interno */
+  text-align: center; /* Centralizando o conteúdo */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espaçamento entre os elementos do formulário */
+  text-align: left; /* Alinhando o texto dos labels à esquerda */
+}
+
+textarea {
+  height: 150px; /* Ajustando a altura do textarea */
+}
+
+button {
+  margin-top: 30px; /* Espaçamento superior do botão */
+  margin-bottom: 20px; /* Espaçamento inferior do botão */
+}
+
+h1 {
+  text-align: center; /* Centralizando o título */
+  margin-top: 50px; /* Espaçamento superior do título */
+  margin-bottom: 30px; /* Espaçamento inferior do título */
+}
